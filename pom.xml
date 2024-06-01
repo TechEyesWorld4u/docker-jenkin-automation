@@ -36,7 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>docker-git-k8s</finalName>
+		<finalName>LearningHub-Image</finalName>
 	</build>
 
 </project>
