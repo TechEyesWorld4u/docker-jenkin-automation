@@ -6,11 +6,11 @@ FROM openjdk:17-alpine
 WORKDIR /learninghub
 
 # Copy the application JAR file to the container
-COPY target/docker-git-k8s.jar /learninghub/docker-git-k8s.jar
+COPY target/LearningHub-Image.jar /learninghub/LearningHub-Image.jar
 #ADD target/docker-git-k8s.jar /learninghub/docker-git-k8s.jar
 
 # Expose the port that the application runs on
 EXPOSE 8081
 
 # Run the application
-ENTRYPOINT ["java", "-jar", "/learninghub/docker-git-k8s.jar"]
+ENTRYPOINT ["java", "-jar", "/learninghub/LearningHub-Image.jar"]
