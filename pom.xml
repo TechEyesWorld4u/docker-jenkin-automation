@@ -35,7 +35,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>LearningHub-Image</finalName>
+		<finalName>learninghub-image</finalName>
 	</build>
 
 </project>
