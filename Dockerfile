@@ -6,7 +6,7 @@ FROM openjdk:17-alpine
 WORKDIR /learninghub
 
 # Copy the application JAR file to the container
-COPY target/LearningHub-Image.jar /learninghub/learninghub-image.jar
+COPY target/learninghub-image.jar /learninghub/learninghub-image.jar
 #ADD target/docker-git-k8s.jar /learninghub/docker-git-k8s.jar
 
 # Expose the port that the application runs on
