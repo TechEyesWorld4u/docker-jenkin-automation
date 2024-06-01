@@ -1,6 +1,6 @@
 pipeline {
     environment {
-    registry = 'techeyesworld/docker-git-k8s'
+    registry = 'techeyesworld/LearningHub-Image'
     registryCredential = 'Docker-Hub-Cred'
     dockerImage = ''
    }
@@ -38,7 +38,7 @@ pipeline {
 					docker.withRegistry( '', registryCredential ) {
                     dockerImage.push()
 				}
-				//bat 'docker push techeyesworld/docker-git-k8s'
+				//bat 'docker push techeyesworld/LearningHub-Image'
 				}
 			}
 		}
